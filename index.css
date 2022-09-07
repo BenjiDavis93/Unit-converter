@@ -1,0 +1,80 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header-container{
+    width: 550px;
+    background-color: #6943FF;
+    margin-top: 125px;
+    padding: 35px 0px;
+}
+
+#results-container{
+    width: 500px;
+    background-color: #F4F4F4;
+    padding: 22.5px 25px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+#input-el{
+    text-align: center;
+    margin: 0 auto 25px auto;
+    display: block;
+    width: 140px;
+    height: 85px;
+    background-color: #6943FF;
+    border: 2px solid #B295FF;
+    border-radius: 5px; 
+    outline: none;
+    
+    font-family: 'Inter';
+    font-size: 58px;
+    color: white;
+}
+
+#convert-btn{
+    display: block;
+    margin: 0 auto;
+    width: 144px;
+    padding: 9px 27px;
+    font-family: 'Inter';
+    font-size: 18px;
+    background: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.result-section{
+    background-color: white;
+    margin: 12.5px;
+}
+
+.type-text{
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 20px;
+    color: #5A537B;
+}
+
+.plain-text{
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 14px;
+    color: #353535;
+}
